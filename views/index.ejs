@@ -8,8 +8,15 @@
 
 </head>
 <body>
-    <div class="w-full h-screen bg-zinc-900">
-        
+    <div class="w-full h-screen bg-zinc-900 text-white p-10">
+        <h3 class="text-3xl mb-3">Creat Users</h3>
+        <form method="post" action="/create">
+            <input class="px-3 py-3 rounded-md bg-transparent boder-5 border-zinc-600 text-white" type="text" placeholder="username" name="username">
+            <input class="px-3 py-3 rounded-md bg-transparent boder-5 border-zinc-600 text-white" type="email" placeholder="email" name="email">
+            <input class="px-3 py-3 rounded-md bg transparent boder-5 border-zinc-600 text-white" type="password" placeholder="password" name="password">
+            <input class="px-3 py-3 rounded-md bg-transparent boder-5 border-zinc-600 text-white" type="number" placeholder="age" name="age">
+            <input class="px-5 py-3 rounded-md bg-blue-500 boder-5 " type="submit" value="creat user">
+        </form>
     </div>
 </body>
 </h
